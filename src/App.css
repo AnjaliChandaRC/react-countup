@@ -10,3 +10,37 @@
         min-width: unset;
     }
 }
+
+body,
+html {
+    background-color: black;
+}
+
+input {
+    border: 0;
+    min-height: 30px;
+}
+
+input:focus-visible {
+    outline-offset: unset !important;
+}
+
+:focus-visible {
+    outline: unset !important;
+}
+
+.input_text {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.cross_img {
+    right: 4px;
+    top: -5px;
+}
