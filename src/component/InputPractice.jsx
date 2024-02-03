@@ -36,7 +36,7 @@ const InputPractice = () => {
               history.map((entry, index) => (
                 <span
                   id="outputSpan"
-                  className="input_text text-black mx-1 mt-2 position-relative"
+                  className="input_text text-black m-1 position-relative"
                   key={index}
                 >
                   <span
@@ -56,11 +56,11 @@ const InputPractice = () => {
 
             <input
               type="text"
-              placeholder="Enter Value"
-              className="w-100 p-2 fs-4 fw-bold"
+              className="p-2 fs-4 fw-bold"
               value={value}
               onChange={handleChange}
               onKeyUp={handleEnter}
+              id="input_id"
             />
           </label>
         </form>
